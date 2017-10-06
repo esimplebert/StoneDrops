@@ -1,0 +1,29 @@
+name: StoneDrops
+author: simplebert
+website:
+description: Provides item drop from stone
+version: 1.0.0_RELEASE
+api: [3.0.0, 3.0.1]
+main: pl\simplebert\sd\SD
+
+commands:
+  stonedrops:
+    aliases: [sd]
+    description: Plugin management
+    usage: /stonedrops [reload, info]
+  drop:
+    aliases: [stone]
+    description: 
+    usage: /drop
+
+permissions:
+  stonedrops:
+    default: op
+
+    children:
+      reload:
+        default: op
+      drop:
+        default: op
+      vip:
+        default: op
