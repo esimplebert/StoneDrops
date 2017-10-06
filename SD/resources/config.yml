@@ -1,0 +1,44 @@
+eqdrop: true
+
+drops:
+  Diamonds:
+    tool: [278, 257]
+    item: 264
+    quanity: [1, 1]
+    xp: 5
+    max-y: 16
+    chance: 0.8
+    vipchance: 0.9
+
+  Gold:
+    tool: [278, 257]
+    item: 14
+    quanity: [1, 1]
+    xp: 0
+    max-y: 32
+    chance: 1.8
+    vipchance: 2.0
+
+  Emeralds:
+    tool: [278, 257]
+    item: 388
+    xp: 5
+    quanity: [1, 1]
+    max-y: 29
+    chance: 0.2
+    vipchance: 0.3
+
+  Iron	:
+    tool: [278, 257, 285, 274]
+    item: 15
+    xp: 0
+    quanity: [1, 1]
+    max-y: 64
+    chance: 4.2
+    vipchance: 4.5
+
+blocked:
+  - 56
+  - 129
+  - 14
+  - 15
